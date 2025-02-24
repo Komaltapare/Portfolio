@@ -1,0 +1,184 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: Arial, sans-serif;
+                color: #333;
+            }
+            
+            header {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 30px 0;
+            }
+            
+            header .logo h1 {
+                font-size: 3em;
+            }
+            
+            header .logo p {
+                font-style: italic;
+                font-size: 1.2em;
+                margin-top: 10px;
+            }
+            
+            #about {
+                background-color: rgb(233, 227, 174);
+                text-align: center;
+            }
+            
+            #about h2 {
+                font-size: 2.5em;
+                margin-bottom: 20px;
+                display: inline;
+            }
+            
+            .about-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+            }
+            
+            .profile-img {
+                width: 240px;
+                height: 240px;
+                border-radius: 50%;
+                margin-bottom: 20px;
+            }
+            
+            #about p {
+                font-size: 1.1em;
+                max-width: 800px;
+                margin: 0 auto;
+                text-align: center;
+            }
+            
+            .Project section p {
+                text-align: center;
+            }
+            
+            .contain {
+                background-color: rgb(230, 220, 220);
+                text-align: center;
+                justify-content: center;
+            }
+            
+            img {
+                width: 400px;
+                height: 500px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            
+            .skills {
+                margin-bottom: 20px;
+            }
+            
+            .img {
+                display: flex;
+                gap: 8px;
+                margin-top: 30px;
+                margin-left: 150px;
+                margin-bottom: 30px;
+            }
+            
+            footer {
+                background-color: #333;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+            }
+            
+            footer p {
+                font-size: 2rem;
+                /* margin-top: 30px */
+            }
+            
+            #resume .download-btn {
+                display: inline-block;
+                background-color: #f39c12;
+                padding: 10px 20px;
+                color: white;
+                text-decoration: none;
+                font-size: 1.2rem;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+            
+            #resume .download-btn:hover {
+                background-color: #e67e22;
+            }
+            
+            #resume {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 60px;
+            }
+            
+            #contact h2 {
+                color: black;
+            }
+            
+            #contact {
+                /* background-color: dimgrey; */
+                padding: 20px;
+                margin-bottom: 20px;
+                /* color: white; */
+            }
+            
+            #contact p {
+                margin-top: 10px;
+                margin-bottom: 25px;
+            }
+            
+            .imgg img:hover {
+                transform: scale(1.1);
+                border-radius: 10px;
+                box-shadow: 0.5px 1px 0.5px gray;
+            }
+            
+            #fec img {
+                width: 70px;
+                height: 70px;
+                /* border-radius: 10px; */
+            }
+            
+            .skills {
+                width: 20%;
+                height: 90px;
+                text-align: center;
+                margin-top: 10px;
+                background-color: rgb(249, 225, 233);
+                color: black;
+            }
+            
+            .skilll {
+                display: flex;
+                /* margin-left: 40%; */
+                /* margin-top: 10px; */
+                margin-bottom: 20px;
+                gap: 10px;
+                list-style: none;
+                margin: auto;
+                justify-content: center;
+            }
+            
+            .skilll li {
+                font-size: 25px;
+                font-weight: 800px;
+                /* margin-top: 30px; */
+                margin-bottom: 20px;
+            }
+            
+            .gk {
+                margin-top: 30px;
+            }
+            
+            .underline:hover {
+                border-bottom: 2px solid black;
+            }
